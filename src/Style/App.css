@@ -1,0 +1,169 @@
+/* Tipo de letra */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-branca: #fff;
+    --cor-azul-claro: #00defc;
+    --cor-azul-claro-hover: #0a7280;
+    --cor-azul-escuro: #132c52;
+    --fundo-do-header: #132c52;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: var(--fundo-do-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.header .LogoLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+}
+
+.header .LogoLinks .Logo a {
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.header .LogoLinks .Logo a img {
+    width: 80px;
+    height: auto;
+}
+
+.header .LogoLinks .Links ul {
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.header .LogoLinks .Links ul li a {
+    color: var(--cor-branca);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--cor-azul-claro);
+    }
+}
+
+.header .Btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.header .Btn a {
+    background-color: var(--cor-azul-claro);
+    color: var(--cor-azul-escuro);
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--cor-azul-claro-hover);
+        color: var(--cor-branca);
+    }
+}
+
+.header .Btn svg {
+    color: var(--cor-branca);
+    width: 1.7em;
+    height: 1.7em;
+    cursor: pointer;
+    display: none;
+
+    &:hover {
+        color: var(--cor-azul-claro);
+    }
+}
+
+/* Estilos do Menu Mobile */
+.header .MenuMobile {
+    background-color: var(--fundo-do-header);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0 0 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header .MenuMobile .CloseMenu {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 50px 30px 0;
+}
+
+.header .MenuMobile .CloseMenu svg {
+    cursor: pointer;
+    color: var(--cor-branca);
+    width: 30px;
+    height: 30px;
+
+    &:hover {
+        color: var(--cor-azul-claro);
+    }
+}
+
+.header .MenuMobile .Links ul {
+    list-style: none;
+}
+
+.header .MenuMobile .Links ul li a {
+    color: var(--cor-branca);
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 20px;
+
+    &:hover {
+        color: var(--cor-azul-claro);
+    }
+}
+
+/* Oculta o ícon de Menu quando a tela for maior que 680px */
+@media screen and (min-width: 680px) {
+    .header .Btn svg {
+        display: none;
+    }
+
+    .header .MenuMobile {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header .LogoLinks .Links {
+        display: none;
+    }
+
+    .header .Btn svg {
+        display: block;
+    }
+}
