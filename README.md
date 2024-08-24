@@ -10,7 +10,7 @@
 
 # Licença
 
-Este código é disponibilizado sob uma licença de código aberto que permite a utilização, modificação e distribuição do código, desde que os seguintes termos sejam respeitados:
+Este projeto está licenciado sob a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by/4.0/) e é disponibilizado sob uma licença de código aberto que permite a utilização, modificação e distribuição do código, desde que os seguintes termos sejam respeitados:
 
 ## Direitos e Permissões
 
