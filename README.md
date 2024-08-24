@@ -1,13 +1,3 @@
-# DEMO
-
-<picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HutaDev/Menu-Cyber-Technology/blob/main/src/Imagens/Menu%20Cyber%20Technology.png?raw=true">
-     <source media="(prefers-color-scheme: light)" srcset="https://github.com/HutaDev/Menu-Cyber-Technology/blob/main/src/Imagens/Menu%20Cyber%20Technology.png?raw=true">
-     <img alt="YOUR-ALT-TEXT" src="https://github.com/HutaDev/Menu-Cyber-Technology/blob/main/src/Imagens/Menu%20Cyber%20Technology.png?raw=true">
-</picture>
-
-<hr>
-
 # Licença
 
 Este projeto está licenciado sob a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by/4.0/) e é disponibilizado sob uma licença de código aberto que permite a utilização, modificação e distribuição do código, desde que os seguintes termos sejam respeitados:
