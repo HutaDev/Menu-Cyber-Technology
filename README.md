@@ -15,7 +15,7 @@ Este projeto está licenciado sob a [Creative Commons Attribution-NonCommercial-
 
 ## Isenção de Responsabilidade
 
-Este código é fornecido "como está", sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias de comercialização, adequação a um propósito específico e não violação. Em nenhuma circunstância os autores ou detentores de direitos serão responsáveis por quaisquer reivindicações, danos ou outras responsabilidades, seja em uma ação de contrato, delito ou de outra forma, decorrentes de ou em conexão com o código ou o uso ou outros negócios no código.
+Este código é fornecido "como está", sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias de comercialização, adequação a um propósito específico e não violação. Em nenhuma circunstância os autores ou detentores de direitos serão responsáveis por quaisquer reivindicações, danos ou outras responsabilidades, seja em uma ação de contrato, delito ou de outra forma, decorrentes de ou em conexão com o código ou o uso ou outros negócios no código..
 
 ## Créditos*
 
